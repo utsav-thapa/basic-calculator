@@ -15,16 +15,26 @@ public class BasicCalculator {
         System.out.println("Possible Calculations: \n (A)dd \n (S)ubstract \n (M)ultiply \n (D)ivide \n Please select an option: ");
         Scanner scanner3 = new Scanner(System.in);
         String option = scanner3.nextLine();
+        //check if it has to Add and prints
         if (option.equals("A")){
             System.out.println(firstNumber + " + " + secondNumber + " = " + (firstNumber + secondNumber) );
         }
 
+        //check if it has to Substract and prints
+
+
         if (option.equals("S")){
             System.out.println(firstNumber + " - " + secondNumber + " = " + (firstNumber - secondNumber) );
         }
+
+        //check if it has to Multiply and prints
+
         if (option.equals("M")){
             System.out.println(firstNumber + " * " + secondNumber + " = " + (firstNumber * secondNumber) );
         }
+
+        //check if it has to Divide and prints
+
         if (option.equals("D")){
             System.out.println(firstNumber + " / " + secondNumber + " = " + (firstNumber / secondNumber) );
         }
